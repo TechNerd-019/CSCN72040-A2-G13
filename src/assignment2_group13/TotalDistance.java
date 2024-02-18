@@ -1,5 +1,4 @@
-
-
+package assignment2_group13;
 
 import java.util.Scanner;
 
