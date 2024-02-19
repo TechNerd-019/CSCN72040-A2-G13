@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class coordinatesIterator implements iteratorInterface {
+public class coordinatesIterator implements iteratorInterface, Iterator<double[][]> {
 
     private ArrayList<locationCoordinatesMemento> mementos = new ArrayList<>();
     private int index;
@@ -16,11 +16,13 @@ public class coordinatesIterator implements iteratorInterface {
         this.innerIndex = 0;
     }
 
+ // Overriding the hasNext method from the Iterator interface
     @Override
     public boolean hasNext() {
         return index < mementos.size() && innerIndex < mementos.get(index).getCoordinates().length;
     }
 
+ // Overriding the next method from the Iterator interface
     @Override
     public double[][] next() {
         if (!hasNext()) {
@@ -43,11 +45,16 @@ public class coordinatesIterator implements iteratorInterface {
      * calculateDistance function to get the distance between two specific points.
      */
 
+ // Updated the calculateTotalDistance method to use the iterator
     public static double calculateTotalDistance(ArrayList<locationCoordinatesMemento> mementos) {
         double totalDistance = 0.0;
+        coordinatesIterator iterator = new coordinatesIterator(mementos);  // Create an instance of the iterator
         double[] previousCoordinates = null;
-        for (locationCoordinatesMemento memento : mementos) {
-            double[][] currentCoordinates = memento.getCoordinates();
+        
+        // Use the iterator to traverse through the coordinates
+        while (iterator.hasNext()) {
+            double[][] currentCoordinates = iterator.next();
+            
             if (previousCoordinates != null) {
                 for (int i = 0; i < currentCoordinates.length; i++) {
                     double[] currentCoord = currentCoordinates[i];
@@ -62,14 +69,17 @@ public class coordinatesIterator implements iteratorInterface {
         return totalDistance;
     }
 
+    // Updated the calculateDistance method to use double[] instead of double[][]
     private static double calculateDistance(double[] coord1, double[] coord2) {
         // Calculate distance between two coordinates using the distance formula
         return Math.sqrt(Math.pow(coord2[0] - coord1[0], 2) + Math.pow(coord2[1] - coord1[1], 2));
     }
 
-	@Override
-	public Iterator createIterator() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+ // Overriding the createIterator method from the iteratorInterface
+    @Override
+    public Iterator<double[][]> createIterator() {
+        return new coordinatesIterator(mementos);  // Return an instance of the iterator
+    }
+
+
 }
