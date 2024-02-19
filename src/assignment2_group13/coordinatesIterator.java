@@ -41,7 +41,7 @@ public class coordinatesIterator implements iteratorInterface, Iterator<double[]
      * These functions serve to calculate the total distance between all coordinates
      * stored in the memento.
      * 
-     * The upper function traverses through all te coordinates and calls the
+     * The upper function traverses through all the coordinates and calls the
      * calculateDistance function to get the distance between two specific points.
      */
 
