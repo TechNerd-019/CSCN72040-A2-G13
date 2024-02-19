@@ -74,20 +74,38 @@ public class Main {
 				 * declare an x and y double that will parse the input and save
 				 * the two doubles the user provides:
 				 */
-				double x = coordinatesInput.nextDouble();
-				double y = coordinatesInput.nextDouble();
+				
+				/*
+				 * Parsing needed to be implemented as exceptions were thrown if 
+				 * we were just using .nextDouble();
+				 */
+				String input = coordinatesInput.next();
+				String[] parts = input.split(",");
+				if (parts.length != 2) {
+				    System.out.println("Invalid input format. Please try again.");
+				    break;
+				}
+				double x = Double.parseDouble(parts[0]);
+				double y = Double.parseDouble(parts[1]);
 				
 				// Storing the coordinates in the memento.
 				coordinates.setCoordinate(new double[][] { { x, y } });
 			    locationCoordinatesMemento memento = coordinates.storeInMemento();
 			    caretakerForMemento caretaker = new caretakerForMemento();
 			    caretaker.addNewCoordinatesMemento(memento);
+			 
+			  
+			    double[][] currentCoordinates = { { x, y } };  
+			    DangerZoneDisplay object = new DangerZoneDisplay();
+			    object.update(currentCoordinates);
+
 
 				break;
 			case 2:
-				// calculateTotalDistance must be added.
-				// Joel Fernandez's responsibility.
-				break;
+				caretakerForMemento caretakerForDistance = new caretakerForMemento();
+				 double totalDistance = coordinatesIterator.calculateTotalDistance(caretakerForDistance.savedCoordinates);
+			    System.out.println("Total travelled distance: " + totalDistance);
+			    break;
 			case 3:
 				// Program exits.
 				isProgramRunning = false;

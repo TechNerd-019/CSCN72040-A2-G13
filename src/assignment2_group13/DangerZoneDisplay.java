@@ -14,7 +14,6 @@ public class DangerZoneDisplay implements Observer {
         // Check if the vehicle is in the danger zone
         if (isInDangerZone(currentX, currentY)) {
             System.out.println("Danger Zone Alert! Vehicle is in the danger zone.");
-            System.exit(0); // Exit the program when in the danger zone
         }
         else
         {
