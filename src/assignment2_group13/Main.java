@@ -30,7 +30,7 @@ public class Main {
 		
 		// First greeting message:
 		System.out.println("Welcome! Please choose an option:");
-		
+		caretakerForMemento caretaker = new caretakerForMemento(); // Initialize caretaker outside the loop
 		while (isProgramRunning)
 		{
 			// Second and onward message to choose an option.
@@ -89,10 +89,9 @@ public class Main {
 				double y = Double.parseDouble(parts[1]);
 				
 				// Storing the coordinates in the memento.
-				coordinates.setCoordinate(new double[][] { { x, y } });
-			    locationCoordinatesMemento memento = coordinates.storeInMemento();
-			    caretakerForMemento caretaker = new caretakerForMemento();
-			    caretaker.addNewCoordinatesMemento(memento);
+                coordinates.setCoordinate(new double[][]{{x, y}});
+                locationCoordinatesMemento memento = coordinates.storeInMemento();
+                caretaker.addNewCoordinatesMemento(memento);
 			 
 			  
 			    double[][] currentCoordinates = { { x, y } };  
@@ -102,9 +101,9 @@ public class Main {
 
 				break;
 			case 2:
-				caretakerForMemento caretakerForDistance = new caretakerForMemento();
-				 double totalDistance = coordinatesIterator.calculateTotalDistance(caretakerForDistance.savedCoordinates);
-			    System.out.println("Total travelled distance: " + totalDistance);
+				
+                double totalDistance = coordinatesIterator.calculateTotalDistance(caretaker.savedCoordinates);
+                System.out.println("Total travelled distance: " + totalDistance);
 			    break;
 			case 3:
 				// Program exits.
