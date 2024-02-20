@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classassignment2__group13_1_1_danger_zone_display" kind="class" language="Java" prot="public">
+    <compoundname>assignment2_group13::DangerZoneDisplay</compoundname>
+    <basecompoundref refid="interfaceassignment2__group13_1_1_observer" prot="public" virt="non-virtual">assignment2_group13.Observer</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classassignment2__group13_1_1_danger_zone_display_1ac9a416ba9e0f44b7cfbfb25f46e40496" prot="private" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double assignment2_group13.DangerZoneDisplay.DANGER_ZONE_RADIUS</definition>
+        <argsstring></argsstring>
+        <name>DANGER_ZONE_RADIUS</name>
+        <qualifiedname>assignment2_group13.DangerZoneDisplay.DANGER_ZONE_RADIUS</qualifiedname>
+        <initializer>= 3.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DangerZoneDisplay.java" line="5" column="33" bodyfile="DangerZoneDisplay.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classassignment2__group13_1_1_danger_zone_display_1af0f40ac6afdd95c88e770c110c9dc277" prot="private" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double assignment2_group13.DangerZoneDisplay.DANGER_ZONE_CENTER_X</definition>
+        <argsstring></argsstring>
+        <name>DANGER_ZONE_CENTER_X</name>
+        <qualifiedname>assignment2_group13.DangerZoneDisplay.DANGER_ZONE_CENTER_X</qualifiedname>
+        <initializer>= 6.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DangerZoneDisplay.java" line="6" column="33" bodyfile="DangerZoneDisplay.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classassignment2__group13_1_1_danger_zone_display_1afbff8ccd1f3b2c5ac30abf4f34212272" prot="private" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double assignment2_group13.DangerZoneDisplay.DANGER_ZONE_CENTER_Y</definition>
+        <argsstring></argsstring>
+        <name>DANGER_ZONE_CENTER_Y</name>
+        <qualifiedname>assignment2_group13.DangerZoneDisplay.DANGER_ZONE_CENTER_Y</qualifiedname>
+        <initializer>= 6.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DangerZoneDisplay.java" line="7" column="33" bodyfile="DangerZoneDisplay.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classassignment2__group13_1_1_danger_zone_display_1ae35851ea33eee4b9645b9637aa936ccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void assignment2_group13.DangerZoneDisplay.update</definition>
+        <argsstring>(double[][] coordinates)</argsstring>
+        <name>update</name>
+        <qualifiedname>assignment2_group13.DangerZoneDisplay.update</qualifiedname>
+        <reimplements refid="interfaceassignment2__group13_1_1_observer_1aa9c88873b65d25178bad48e34f6eac5d">update</reimplements>
+        <param>
+          <type>double</type>
+          <declname>coordinates</declname>
+          <array>[][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates the observer with the new state. This method is called when the subject&apos;s state changes, providing the observer with the new coordinates to react accordingly.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coordinates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A 2D array of doubles representing the new state to be updated with. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DangerZoneDisplay.java" line="10" column="17" bodyfile="DangerZoneDisplay.java" bodystart="10" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classassignment2__group13_1_1_danger_zone_display_1ab621e9c9b89d0add17b31ad30bb44e26" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean assignment2_group13.DangerZoneDisplay.isInDangerZone</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>isInDangerZone</name>
+        <qualifiedname>assignment2_group13.DangerZoneDisplay.isInDangerZone</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DangerZoneDisplay.java" line="24" column="21" bodyfile="DangerZoneDisplay.java" bodystart="24" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>assignment2_group13.DangerZoneDisplay</label>
+        <link refid="classassignment2__group13_1_1_danger_zone_display"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>assignment2_group13.Observer</label>
+        <link refid="interfaceassignment2__group13_1_1_observer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>assignment2_group13.DangerZoneDisplay</label>
+        <link refid="classassignment2__group13_1_1_danger_zone_display"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>assignment2_group13.Observer</label>
+        <link refid="interfaceassignment2__group13_1_1_observer"/>
+      </node>
+    </collaborationgraph>
+    <location file="DangerZoneDisplay.java" line="4" column="7" bodyfile="DangerZoneDisplay.java" bodystart="4" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classassignment2__group13_1_1_danger_zone_display_1af0f40ac6afdd95c88e770c110c9dc277" prot="private" virt="non-virtual"><scope>assignment2_group13::DangerZoneDisplay</scope><name>DANGER_ZONE_CENTER_X</name></member>
+      <member refid="classassignment2__group13_1_1_danger_zone_display_1afbff8ccd1f3b2c5ac30abf4f34212272" prot="private" virt="non-virtual"><scope>assignment2_group13::DangerZoneDisplay</scope><name>DANGER_ZONE_CENTER_Y</name></member>
+      <member refid="classassignment2__group13_1_1_danger_zone_display_1ac9a416ba9e0f44b7cfbfb25f46e40496" prot="private" virt="non-virtual"><scope>assignment2_group13::DangerZoneDisplay</scope><name>DANGER_ZONE_RADIUS</name></member>
+      <member refid="classassignment2__group13_1_1_danger_zone_display_1ab621e9c9b89d0add17b31ad30bb44e26" prot="private" virt="non-virtual"><scope>assignment2_group13::DangerZoneDisplay</scope><name>isInDangerZone</name></member>
+      <member refid="classassignment2__group13_1_1_danger_zone_display_1ae35851ea33eee4b9645b9637aa936ccb" prot="public" virt="non-virtual"><scope>assignment2_group13::DangerZoneDisplay</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classassignment2__group13_1_1location_coordinates_memento" kind="class" language="Java" prot="public">
+    <compoundname>assignment2_group13::locationCoordinatesMemento</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classassignment2__group13_1_1location_coordinates_memento_1a7cd4ec54ac8298f5924adc9d2e08ce75" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double assignment2_group13.locationCoordinatesMemento.coordinates[][]</definition>
+        <argsstring>[][]</argsstring>
+        <name>coordinates</name>
+        <qualifiedname>assignment2_group13.locationCoordinatesMemento.coordinates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored coordinates in a 2D array format. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="locationCoordinatesMemento.java" line="14" column="16" bodyfile="locationCoordinatesMemento.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classassignment2__group13_1_1location_coordinates_memento_1a94143c40f0e4f591dd067f3b2fa0af7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>assignment2_group13.locationCoordinatesMemento.locationCoordinatesMemento</definition>
+        <argsstring>(double coordinates[][])</argsstring>
+        <name>locationCoordinatesMemento</name>
+        <qualifiedname>assignment2_group13.locationCoordinatesMemento.locationCoordinatesMemento</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>coordinates</declname>
+          <array>[][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new <computeroutput>locationCoordinatesMemento</computeroutput> object to store a snapshot of location coordinates.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coordinates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A 2D array of doubles representing the coordinates to be stored. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="locationCoordinatesMemento.java" line="20" column="8" bodyfile="locationCoordinatesMemento.java" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classassignment2__group13_1_1location_coordinates_memento_1a69055e207b9acdbf107fccfe2bdcd14f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[][]</type>
+        <definition>double[][] assignment2_group13.locationCoordinatesMemento.getCoordinates</definition>
+        <argsstring>()</argsstring>
+        <name>getCoordinates</name>
+        <qualifiedname>assignment2_group13.locationCoordinatesMemento.getCoordinates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the stored coordinates.</para>
+<para><simplesect kind="return"><para>The stored coordinates as a 2D array of doubles. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="locationCoordinatesMemento.java" line="29" column="15" bodyfile="locationCoordinatesMemento.java" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput>locationCoordinatesMemento</computeroutput> class represents a memento object in the Memento design pattern. It is used to store the state of an object (in this case, location coordinates) so that it can be restored at a later time. This class specifically handles the storage of location coordinates, encapsulating them in a manner that does not expose the details of the stored state to other objects, except for the originator that created it. </para>
+    </detaileddescription>
+    <location file="locationCoordinatesMemento.java" line="10" column="7" bodyfile="locationCoordinatesMemento.java" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classassignment2__group13_1_1location_coordinates_memento_1a7cd4ec54ac8298f5924adc9d2e08ce75" prot="private" virt="non-virtual"><scope>assignment2_group13::locationCoordinatesMemento</scope><name>coordinates</name></member>
+      <member refid="classassignment2__group13_1_1location_coordinates_memento_1a69055e207b9acdbf107fccfe2bdcd14f" prot="public" virt="non-virtual"><scope>assignment2_group13::locationCoordinatesMemento</scope><name>getCoordinates</name></member>
+      <member refid="classassignment2__group13_1_1location_coordinates_memento_1a94143c40f0e4f591dd067f3b2fa0af7d" prot="public" virt="non-virtual"><scope>assignment2_group13::locationCoordinatesMemento</scope><name>locationCoordinatesMemento</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

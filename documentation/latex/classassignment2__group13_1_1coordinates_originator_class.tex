@@ -1,0 +1,62 @@
+\hypertarget{classassignment2__group13_1_1coordinates_originator_class}{}\doxysection{assignment2\+\_\+group13.\+coordinates\+Originator\+Class Class Reference}
+\label{classassignment2__group13_1_1coordinates_originator_class}\index{assignment2\_group13.coordinatesOriginatorClass@{assignment2\_group13.coordinatesOriginatorClass}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classassignment2__group13_1_1coordinates_originator_class_aecaa917b6aedfbd8dd21699b35d842dd}{set\+Coordinate}} (double coordinates\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\hyperlink{classassignment2__group13_1_1location_coordinates_memento}{location\+Coordinates\+Memento}} \mbox{\hyperlink{classassignment2__group13_1_1coordinates_originator_class_a7adcda18cd9c53b2eb52473814477c30}{store\+In\+Memento}} ()
+\item 
+double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classassignment2__group13_1_1coordinates_originator_class_a8ec8fe744773570604263cf552043234}{restore\+From\+Memento}} (\mbox{\hyperlink{classassignment2__group13_1_1location_coordinates_memento}{location\+Coordinates\+Memento}} memento)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The {\ttfamily coordinates\+Originator\+Class} is responsible for creating and restoring states of its coordinates. It acts as the originator in the Memento design pattern, which allows for the state of an object to be saved and restored without breaking encapsulation. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classassignment2__group13_1_1coordinates_originator_class_a8ec8fe744773570604263cf552043234}\label{classassignment2__group13_1_1coordinates_originator_class_a8ec8fe744773570604263cf552043234}} 
+\index{assignment2\_group13.coordinatesOriginatorClass@{assignment2\_group13.coordinatesOriginatorClass}!restoreFromMemento@{restoreFromMemento}}
+\index{restoreFromMemento@{restoreFromMemento}!assignment2\_group13.coordinatesOriginatorClass@{assignment2\_group13.coordinatesOriginatorClass}}
+\doxysubsubsection{\texorpdfstring{restoreFromMemento()}{restoreFromMemento()}}
+{\footnotesize\ttfamily double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} assignment2\+\_\+group13.\+coordinates\+Originator\+Class.\+restore\+From\+Memento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classassignment2__group13_1_1location_coordinates_memento}{location\+Coordinates\+Memento}}}]{memento }\end{DoxyParamCaption})}
+
+Restores the coordinates state from a memento object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em memento} & The {\ttfamily location\+Coordinates\+Memento} object from which to restore the state. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The restored coordinates as a 2D array of doubles. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classassignment2__group13_1_1coordinates_originator_class_aecaa917b6aedfbd8dd21699b35d842dd}\label{classassignment2__group13_1_1coordinates_originator_class_aecaa917b6aedfbd8dd21699b35d842dd}} 
+\index{assignment2\_group13.coordinatesOriginatorClass@{assignment2\_group13.coordinatesOriginatorClass}!setCoordinate@{setCoordinate}}
+\index{setCoordinate@{setCoordinate}!assignment2\_group13.coordinatesOriginatorClass@{assignment2\_group13.coordinatesOriginatorClass}}
+\doxysubsubsection{\texorpdfstring{setCoordinate()}{setCoordinate()}}
+{\footnotesize\ttfamily void assignment2\+\_\+group13.\+coordinates\+Originator\+Class.\+set\+Coordinate (\begin{DoxyParamCaption}\item[{double}]{coordinates\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Sets the current coordinates state.
+
+
+\begin{DoxyParams}{Parameters}
+{\em coordinates} & A 2D array of doubles representing the coordinates. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classassignment2__group13_1_1coordinates_originator_class_a7adcda18cd9c53b2eb52473814477c30}\label{classassignment2__group13_1_1coordinates_originator_class_a7adcda18cd9c53b2eb52473814477c30}} 
+\index{assignment2\_group13.coordinatesOriginatorClass@{assignment2\_group13.coordinatesOriginatorClass}!storeInMemento@{storeInMemento}}
+\index{storeInMemento@{storeInMemento}!assignment2\_group13.coordinatesOriginatorClass@{assignment2\_group13.coordinatesOriginatorClass}}
+\doxysubsubsection{\texorpdfstring{storeInMemento()}{storeInMemento()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classassignment2__group13_1_1location_coordinates_memento}{location\+Coordinates\+Memento}} assignment2\+\_\+group13.\+coordinates\+Originator\+Class.\+store\+In\+Memento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Saves the current coordinates state into a memento object.
+
+\begin{DoxyReturn}{Returns}
+A new instance of {\ttfamily location\+Coordinates\+Memento} containing the current state. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+coordinates\+Originator\+Class.\+java\end{DoxyCompactItemize}

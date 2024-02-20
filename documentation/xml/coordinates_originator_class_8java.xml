@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="coordinates_originator_class_8java" kind="file" language="Java">
+    <compoundname>coordinatesOriginatorClass.java</compoundname>
+    <innerclass refid="classassignment2__group13_1_1coordinates_originator_class" prot="public">assignment2_group13::coordinatesOriginatorClass</innerclass>
+    <innernamespace refid="namespaceassignment2__group13">assignment2_group13</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">assignment2_group13;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Arrays;</highlight></codeline>
+<codeline lineno="9" refid="classassignment2__group13_1_1coordinates_originator_class" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classassignment2__group13_1_1coordinates_originator_class" kindref="compound">coordinatesOriginatorClass</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>coordinates[][];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classassignment2__group13_1_1coordinates_originator_class_1aecaa917b6aedfbd8dd21699b35d842dd" kindref="member">setCoordinate</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>coordinates[][])</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.coordinates<sp/>=<sp/>coordinates;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref><sp/><ref refid="classassignment2__group13_1_1coordinates_originator_class_1a7adcda18cd9c53b2eb52473814477c30" kindref="member">storeInMemento</ref>()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>System.out.println(</highlight><highlight class="stringliteral">&quot;From<sp/>Originator:<sp/>Saving<sp/>to<sp/>Memento&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref>(coordinates);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[][]<sp/><ref refid="classassignment2__group13_1_1coordinates_originator_class_1a8ec8fe744773570604263cf552043234" kindref="member">restoreFromMemento</ref>(<ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref><sp/>memento)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coordinates<sp/>=<sp/>memento.<ref refid="classassignment2__group13_1_1location_coordinates_memento_1a69055e207b9acdbf107fccfe2bdcd14f" kindref="member">getCoordinates</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>System.out.println(</highlight><highlight class="stringliteral">&quot;From<sp/>Originator:<sp/>Restoring<sp/>Coordinate<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><sp/>Arrays.deepToString(coordinates)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;from<sp/>Memento.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>coordinates;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="coordinatesOriginatorClass.java"/>
+  </compounddef>
+</doxygen>

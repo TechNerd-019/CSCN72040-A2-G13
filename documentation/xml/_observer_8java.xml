@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_observer_8java" kind="file" language="Java">
+    <compoundname>Observer.java</compoundname>
+    <innerclass refid="interfaceassignment2__group13_1_1_observer" prot="public">assignment2_group13::Observer</innerclass>
+    <innernamespace refid="namespaceassignment2__group13">assignment2_group13</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">assignment2_group13;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="interfaceassignment2__group13_1_1_observer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfaceassignment2__group13_1_1_observer" kindref="compound">Observer</ref><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfaceassignment2__group13_1_1_observer_1aa9c88873b65d25178bad48e34f6eac5d" kindref="member">update</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[][]<sp/>coordinates);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Observer.java"/>
+  </compounddef>
+</doxygen>

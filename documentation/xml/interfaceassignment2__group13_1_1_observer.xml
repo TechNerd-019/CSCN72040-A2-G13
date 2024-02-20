@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interfaceassignment2__group13_1_1_observer" kind="interface" language="Java" prot="public">
+    <compoundname>assignment2_group13::Observer</compoundname>
+    <derivedcompoundref refid="classassignment2__group13_1_1_danger_zone_display" prot="public" virt="non-virtual">assignment2_group13.DangerZoneDisplay</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfaceassignment2__group13_1_1_observer_1aa9c88873b65d25178bad48e34f6eac5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void assignment2_group13.Observer.update</definition>
+        <argsstring>(double[][] coordinates)</argsstring>
+        <name>update</name>
+        <qualifiedname>assignment2_group13.Observer.update</qualifiedname>
+        <reimplementedby refid="classassignment2__group13_1_1_danger_zone_display_1ae35851ea33eee4b9645b9637aa936ccb">update</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>coordinates</declname>
+          <array>[][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates the observer with the new state. This method is called when the subject&apos;s state changes, providing the observer with the new coordinates to react accordingly.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coordinates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A 2D array of doubles representing the new state to be updated with. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Observer.java" line="18" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Observer interface is part of the Observer design pattern. It is used to update all observer objects automatically when a subject&apos;s state changes. This particular Observer interface is designed to receive updates containing a 2D array of doubles representing coordinates, which could signify a change in location or any other significant event that observers need to react to. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>assignment2_group13.Observer</label>
+        <link refid="interfaceassignment2__group13_1_1_observer"/>
+      </node>
+      <node id="2">
+        <label>assignment2_group13.DangerZoneDisplay</label>
+        <link refid="classassignment2__group13_1_1_danger_zone_display"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Observer.java" line="10" column="18" bodyfile="Observer.java" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="interfaceassignment2__group13_1_1_observer_1aa9c88873b65d25178bad48e34f6eac5d" prot="public" virt="non-virtual"><scope>assignment2_group13::Observer</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

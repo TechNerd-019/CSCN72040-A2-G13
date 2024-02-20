@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classassignment2__group13_1_1_main" kind="class" language="Java" prot="public">
+    <compoundname>assignment2_group13::Main</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classassignment2__group13_1_1_main_1a2ca541009e5e3f048f43b6697f8682d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void assignment2_group13.Main.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <qualifiedname>assignment2_group13.Main.main</qualifiedname>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Main.java" line="12" column="20" bodyfile="Main.java" bodystart="12" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Main.java" line="10" column="7" bodyfile="Main.java" bodystart="10" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classassignment2__group13_1_1_main_1a2ca541009e5e3f048f43b6697f8682d2" prot="public" virt="non-virtual"><scope>assignment2_group13::Main</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

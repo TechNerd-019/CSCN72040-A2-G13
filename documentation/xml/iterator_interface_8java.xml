@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="iterator_interface_8java" kind="file" language="Java">
+    <compoundname>iteratorInterface.java</compoundname>
+    <innerclass refid="interfaceassignment2__group13_1_1iterator_interface" prot="public">assignment2_group13::iteratorInterface</innerclass>
+    <innernamespace refid="namespaceassignment2__group13">assignment2_group13</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">assignment2_group13;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Iterator;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>iterator<sp/>class<sp/>will<sp/>allow<sp/>us<sp/>to<sp/>access</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>all<sp/>coordinates<sp/>previously<sp/>implemented<sp/>using<sp/>the<sp/>Memento</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>design<sp/>pattern,<sp/>and<sp/>will<sp/>be<sp/>used<sp/>to<sp/>calculate</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>total<sp/>distance.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>This<sp/>interface<sp/>will<sp/>be<sp/>used<sp/>to<sp/>create<sp/>iterators<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>and<sp/>traverse<sp/>through<sp/>coordinates<sp/>stored<sp/>in<sp/>Memennto.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="interfaceassignment2__group13_1_1iterator_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfaceassignment2__group13_1_1iterator_interface" kindref="compound">iteratorInterface</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>Java<sp/>Iterator<sp/>library<sp/>must<sp/>be<sp/>imported</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>added<sp/>to<sp/>implement<sp/>functionality.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Iterator<sp/>createIterator();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>These<sp/>two<sp/>are<sp/>used<sp/>to<sp/>iterate<sp/>over<sp/>stored<sp/>coordinates.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>hasNext();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[][]<sp/>next();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="iteratorInterface.java"/>
+  </compounddef>
+</doxygen>

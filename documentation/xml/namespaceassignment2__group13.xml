@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespaceassignment2__group13" kind="namespace" language="Java">
+    <compoundname>assignment2_group13</compoundname>
+    <innerclass refid="classassignment2__group13_1_1caretaker_for_memento" prot="public">assignment2_group13::caretakerForMemento</innerclass>
+    <innerclass refid="classassignment2__group13_1_1coordinates_iterator" prot="public">assignment2_group13::coordinatesIterator</innerclass>
+    <innerclass refid="classassignment2__group13_1_1coordinates_originator_class" prot="public">assignment2_group13::coordinatesOriginatorClass</innerclass>
+    <innerclass refid="classassignment2__group13_1_1_danger_zone_display" prot="public">assignment2_group13::DangerZoneDisplay</innerclass>
+    <innerclass refid="interfaceassignment2__group13_1_1iterator_interface" prot="public">assignment2_group13::iteratorInterface</innerclass>
+    <innerclass refid="classassignment2__group13_1_1location_coordinates_memento" prot="public">assignment2_group13::locationCoordinatesMemento</innerclass>
+    <innerclass refid="classassignment2__group13_1_1_main" prot="public">assignment2_group13::Main</innerclass>
+    <innerclass refid="interfaceassignment2__group13_1_1_observer" prot="public">assignment2_group13::Observer</innerclass>
+    <innerclass refid="classassignment2__group13_1_1_total_distance" prot="public">assignment2_group13::TotalDistance</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="caretakerForMemento.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

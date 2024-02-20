@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="en-US">
+  <compound refid="classassignment2__group13_1_1caretaker_for_memento" kind="class"><name>assignment2_group13::caretakerForMemento</name>
+    <member refid="classassignment2__group13_1_1caretaker_for_memento_1a8bf95c047862415e634479a6b90633c6" kind="variable"><name>savedCoordinates</name></member>
+    <member refid="classassignment2__group13_1_1caretaker_for_memento_1a6c9293bb69f505cdc1f1959b5afeab76" kind="function"><name>addNewCoordinatesMemento</name></member>
+    <member refid="classassignment2__group13_1_1caretaker_for_memento_1aa0f75c1d18bd54d77dfa2048fa30334c" kind="function"><name>getCoordinates</name></member>
+  </compound>
+  <compound refid="classassignment2__group13_1_1coordinates_iterator" kind="class"><name>assignment2_group13::coordinatesIterator</name>
+    <member refid="classassignment2__group13_1_1coordinates_iterator_1a669e7f480323138b9556631737beb16e" kind="variable"><name>mementos</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_iterator_1a2ea1bb0f28db12ea136d6e8f0daa06e5" kind="variable"><name>index</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_iterator_1a73e8a202c0c3161c65bd21ad4c3d1872" kind="variable"><name>innerIndex</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_iterator_1a30bd9f9553c30dc5788058f8acd1d455" kind="function"><name>coordinatesIterator</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_iterator_1ab90121b5f63b0fc975357209b9986655" kind="function"><name>hasNext</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_iterator_1aed9f3be1f66f88e398de74147e5c09c9" kind="function"><name>next</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_iterator_1af7309471c514fa1321fa038e7c15467c" kind="function"><name>createIterator</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_iterator_1a404a10b658e57d0c786568705fad85e7" kind="function"><name>calculateTotalDistance</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_iterator_1a4edef87a5411e021c00a03afc99eb9a1" kind="function"><name>calculateDistance</name></member>
+  </compound>
+  <compound refid="classassignment2__group13_1_1coordinates_originator_class" kind="class"><name>assignment2_group13::coordinatesOriginatorClass</name>
+    <member refid="classassignment2__group13_1_1coordinates_originator_class_1afde3f96b611bbc87203a3bea9216d7a4" kind="variable"><name>coordinates</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_originator_class_1aecaa917b6aedfbd8dd21699b35d842dd" kind="function"><name>setCoordinate</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_originator_class_1a7adcda18cd9c53b2eb52473814477c30" kind="function"><name>storeInMemento</name></member>
+    <member refid="classassignment2__group13_1_1coordinates_originator_class_1a8ec8fe744773570604263cf552043234" kind="function"><name>restoreFromMemento</name></member>
+  </compound>
+  <compound refid="classassignment2__group13_1_1_danger_zone_display" kind="class"><name>assignment2_group13::DangerZoneDisplay</name>
+    <member refid="classassignment2__group13_1_1_danger_zone_display_1ac9a416ba9e0f44b7cfbfb25f46e40496" kind="variable"><name>DANGER_ZONE_RADIUS</name></member>
+    <member refid="classassignment2__group13_1_1_danger_zone_display_1af0f40ac6afdd95c88e770c110c9dc277" kind="variable"><name>DANGER_ZONE_CENTER_X</name></member>
+    <member refid="classassignment2__group13_1_1_danger_zone_display_1afbff8ccd1f3b2c5ac30abf4f34212272" kind="variable"><name>DANGER_ZONE_CENTER_Y</name></member>
+    <member refid="classassignment2__group13_1_1_danger_zone_display_1ae35851ea33eee4b9645b9637aa936ccb" kind="function"><name>update</name></member>
+    <member refid="classassignment2__group13_1_1_danger_zone_display_1ab621e9c9b89d0add17b31ad30bb44e26" kind="function"><name>isInDangerZone</name></member>
+  </compound>
+  <compound refid="interfaceassignment2__group13_1_1iterator_interface" kind="interface"><name>assignment2_group13::iteratorInterface</name>
+    <member refid="interfaceassignment2__group13_1_1iterator_interface_1ab0ad2c39d20a261b82d925a670d9d777" kind="function"><name>createIterator</name></member>
+    <member refid="interfaceassignment2__group13_1_1iterator_interface_1a74e44da58e894771e42d0576c7b1db5a" kind="function"><name>hasNext</name></member>
+    <member refid="interfaceassignment2__group13_1_1iterator_interface_1a7d7bcec00f4fc6a38adfdf796952ceeb" kind="function"><name>next</name></member>
+  </compound>
+  <compound refid="classassignment2__group13_1_1location_coordinates_memento" kind="class"><name>assignment2_group13::locationCoordinatesMemento</name>
+    <member refid="classassignment2__group13_1_1location_coordinates_memento_1a7cd4ec54ac8298f5924adc9d2e08ce75" kind="variable"><name>coordinates</name></member>
+    <member refid="classassignment2__group13_1_1location_coordinates_memento_1a94143c40f0e4f591dd067f3b2fa0af7d" kind="function"><name>locationCoordinatesMemento</name></member>
+    <member refid="classassignment2__group13_1_1location_coordinates_memento_1a69055e207b9acdbf107fccfe2bdcd14f" kind="function"><name>getCoordinates</name></member>
+  </compound>
+  <compound refid="classassignment2__group13_1_1_main" kind="class"><name>assignment2_group13::Main</name>
+    <member refid="classassignment2__group13_1_1_main_1a2ca541009e5e3f048f43b6697f8682d2" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="interfaceassignment2__group13_1_1_observer" kind="interface"><name>assignment2_group13::Observer</name>
+    <member refid="interfaceassignment2__group13_1_1_observer_1aa9c88873b65d25178bad48e34f6eac5d" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="classassignment2__group13_1_1_total_distance" kind="class"><name>assignment2_group13::TotalDistance</name>
+    <member refid="classassignment2__group13_1_1_total_distance_1ac6dd3b16cb9cc6a39f27ee030a31788e" kind="function"><name>main</name></member>
+    <member refid="classassignment2__group13_1_1_total_distance_1af3206c2b5d9fd0dae171d4442cd2abb7" kind="function"><name>calculateDistance</name></member>
+    <member refid="classassignment2__group13_1_1_total_distance_1a062c6380108d615069089c212df00f84" kind="function"><name>calculateDistance</name></member>
+  </compound>
+  <compound refid="namespaceassignment2__group13" kind="namespace"><name>assignment2_group13</name>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="caretaker_for_memento_8java" kind="file"><name>caretakerForMemento.java</name>
+  </compound>
+  <compound refid="coordinates_iterator_8java" kind="file"><name>coordinatesIterator.java</name>
+  </compound>
+  <compound refid="coordinates_originator_class_8java" kind="file"><name>coordinatesOriginatorClass.java</name>
+  </compound>
+  <compound refid="_danger_zone_display_8java" kind="file"><name>DangerZoneDisplay.java</name>
+  </compound>
+  <compound refid="iterator_interface_8java" kind="file"><name>iteratorInterface.java</name>
+  </compound>
+  <compound refid="location_coordinates_memento_8java" kind="file"><name>locationCoordinatesMemento.java</name>
+  </compound>
+  <compound refid="_main_8java" kind="file"><name>Main.java</name>
+  </compound>
+  <compound refid="_observer_8java" kind="file"><name>Observer.java</name>
+  </compound>
+  <compound refid="_total_distance_8java" kind="file"><name>TotalDistance.java</name>
+  </compound>
+</doxygenindex>

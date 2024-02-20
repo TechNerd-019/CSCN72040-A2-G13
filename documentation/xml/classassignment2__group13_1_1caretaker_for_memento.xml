@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classassignment2__group13_1_1caretaker_for_memento" kind="class" language="Java" prot="public">
+    <compoundname>assignment2_group13::caretakerForMemento</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classassignment2__group13_1_1caretaker_for_memento_1a8bf95c047862415e634479a6b90633c6" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref> &gt;</type>
+        <definition>ArrayList&lt;locationCoordinatesMemento&gt; assignment2_group13.caretakerForMemento.savedCoordinates</definition>
+        <argsstring></argsstring>
+        <name>savedCoordinates</name>
+        <qualifiedname>assignment2_group13.caretakerForMemento.savedCoordinates</qualifiedname>
+        <initializer>= new ArrayList&lt;<ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A list to hold saved <computeroutput>locationCoordinatesMemento</computeroutput> objects. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="caretakerForMemento.java" line="14" column="11" bodyfile="caretakerForMemento.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classassignment2__group13_1_1caretaker_for_memento_1a6c9293bb69f505cdc1f1959b5afeab76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void assignment2_group13.caretakerForMemento.addNewCoordinatesMemento</definition>
+        <argsstring>(locationCoordinatesMemento m)</argsstring>
+        <name>addNewCoordinatesMemento</name>
+        <qualifiedname>assignment2_group13.caretakerForMemento.addNewCoordinatesMemento</qualifiedname>
+        <param>
+          <type><ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a new <computeroutput>locationCoordinatesMemento</computeroutput> object to the list of saved coordinates.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>m</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The memento object to add. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="caretakerForMemento.java" line="20" column="13" bodyfile="caretakerForMemento.java" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classassignment2__group13_1_1caretaker_for_memento_1aa0f75c1d18bd54d77dfa2048fa30334c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref></type>
+        <definition>locationCoordinatesMemento assignment2_group13.caretakerForMemento.getCoordinates</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getCoordinates</name>
+        <qualifiedname>assignment2_group13.caretakerForMemento.getCoordinates</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves a <computeroutput>locationCoordinatesMemento</computeroutput> object from the list of saved coordinates based on the specified index. This enables the ability to restore to a previously saved state.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the memento object to retrieve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <computeroutput>locationCoordinatesMemento</computeroutput> object at the specified index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="caretakerForMemento.java" line="31" column="35" bodyfile="caretakerForMemento.java" bodystart="31" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Caretaker class for the Memento pattern. It is responsible for keeping track of the <computeroutput>locationCoordinatesMemento</computeroutput> objects. This class can add new memento objects to the internal list and retrieve them based on an index, enabling the functionality to restore to a previously saved state. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ArrayList&lt; assignment2_group13.locationCoordinatesMemento &gt;</label>
+      </node>
+      <node id="1">
+        <label>assignment2_group13.caretakerForMemento</label>
+        <link refid="classassignment2__group13_1_1caretaker_for_memento"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>savedCoordinates</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="caretakerForMemento.java" line="10" column="7" bodyfile="caretakerForMemento.java" bodystart="10" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classassignment2__group13_1_1caretaker_for_memento_1a6c9293bb69f505cdc1f1959b5afeab76" prot="public" virt="non-virtual"><scope>assignment2_group13::caretakerForMemento</scope><name>addNewCoordinatesMemento</name></member>
+      <member refid="classassignment2__group13_1_1caretaker_for_memento_1aa0f75c1d18bd54d77dfa2048fa30334c" prot="public" virt="non-virtual"><scope>assignment2_group13::caretakerForMemento</scope><name>getCoordinates</name></member>
+      <member refid="classassignment2__group13_1_1caretaker_for_memento_1a8bf95c047862415e634479a6b90633c6" prot="package" virt="non-virtual"><scope>assignment2_group13::caretakerForMemento</scope><name>savedCoordinates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

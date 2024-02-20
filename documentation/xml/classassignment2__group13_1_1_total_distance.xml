@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classassignment2__group13_1_1_total_distance" kind="class" language="Java" prot="public">
+    <compoundname>assignment2_group13::TotalDistance</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classassignment2__group13_1_1_total_distance_1ac6dd3b16cb9cc6a39f27ee030a31788e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void assignment2_group13.TotalDistance.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <qualifiedname>assignment2_group13.TotalDistance.main</qualifiedname>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TotalDistance.java" line="12" column="24" bodyfile="TotalDistance.java" bodystart="12" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classassignment2__group13_1_1_total_distance_1af3206c2b5d9fd0dae171d4442cd2abb7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double assignment2_group13.TotalDistance.calculateDistance</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>calculateDistance</name>
+        <qualifiedname>assignment2_group13.TotalDistance.calculateDistance</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates the Euclidean distance from the origin (0,0) to a point.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The x-coordinate of the point. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The y-coordinate of the point. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The distance from the origin to the point. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TotalDistance.java" line="52" column="27" bodyfile="TotalDistance.java" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classassignment2__group13_1_1_total_distance_1a062c6380108d615069089c212df00f84" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double assignment2_group13.TotalDistance.calculateDistance</definition>
+        <argsstring>(double newX, double newY, double prevX, double prevY)</argsstring>
+        <name>calculateDistance</name>
+        <qualifiedname>assignment2_group13.TotalDistance.calculateDistance</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>newX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>newY</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>prevX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>prevY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates the Euclidean distance between two points.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The x-coordinate of the new point. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The y-coordinate of the new point. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prevX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The x-coordinate of the previous point. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prevY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The y-coordinate of the previous point. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The distance between the two points. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TotalDistance.java" line="64" column="27" bodyfile="TotalDistance.java" bodystart="64" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The TotalDistance class provides a simple console application to calculate distances related to coordinates input by the user. It calculates the distance from the origin to an initial set of coordinates and the distance between this initial set of coordinates and a new set provided by the user. </para>
+    </detaileddescription>
+    <location file="TotalDistance.java" line="11" column="7" bodyfile="TotalDistance.java" bodystart="11" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classassignment2__group13_1_1_total_distance_1af3206c2b5d9fd0dae171d4442cd2abb7" prot="private" virt="non-virtual"><scope>assignment2_group13::TotalDistance</scope><name>calculateDistance</name></member>
+      <member refid="classassignment2__group13_1_1_total_distance_1a062c6380108d615069089c212df00f84" prot="private" virt="non-virtual"><scope>assignment2_group13::TotalDistance</scope><name>calculateDistance</name></member>
+      <member refid="classassignment2__group13_1_1_total_distance_1ac6dd3b16cb9cc6a39f27ee030a31788e" prot="public" virt="non-virtual"><scope>assignment2_group13::TotalDistance</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classassignment2__group13_1_1coordinates_originator_class" kind="class" language="Java" prot="public">
+    <compoundname>assignment2_group13::coordinatesOriginatorClass</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classassignment2__group13_1_1coordinates_originator_class_1afde3f96b611bbc87203a3bea9216d7a4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double assignment2_group13.coordinatesOriginatorClass.coordinates[][]</definition>
+        <argsstring>[][]</argsstring>
+        <name>coordinates</name>
+        <qualifiedname>assignment2_group13.coordinatesOriginatorClass.coordinates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The current state of coordinates. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinatesOriginatorClass.java" line="13" column="16" bodyfile="coordinatesOriginatorClass.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classassignment2__group13_1_1coordinates_originator_class_1aecaa917b6aedfbd8dd21699b35d842dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void assignment2_group13.coordinatesOriginatorClass.setCoordinate</definition>
+        <argsstring>(double coordinates[][])</argsstring>
+        <name>setCoordinate</name>
+        <qualifiedname>assignment2_group13.coordinatesOriginatorClass.setCoordinate</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>coordinates</declname>
+          <array>[][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the current coordinates state.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coordinates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A 2D array of doubles representing the coordinates. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinatesOriginatorClass.java" line="19" column="13" bodyfile="coordinatesOriginatorClass.java" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classassignment2__group13_1_1coordinates_originator_class_1a7adcda18cd9c53b2eb52473814477c30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref></type>
+        <definition>locationCoordinatesMemento assignment2_group13.coordinatesOriginatorClass.storeInMemento</definition>
+        <argsstring>()</argsstring>
+        <name>storeInMemento</name>
+        <qualifiedname>assignment2_group13.coordinatesOriginatorClass.storeInMemento</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Saves the current coordinates state into a memento object.</para>
+<para><simplesect kind="return"><para>A new instance of <computeroutput>locationCoordinatesMemento</computeroutput> containing the current state. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinatesOriginatorClass.java" line="30" column="35" bodyfile="coordinatesOriginatorClass.java" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classassignment2__group13_1_1coordinates_originator_class_1a8ec8fe744773570604263cf552043234" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[][]</type>
+        <definition>double[][] assignment2_group13.coordinatesOriginatorClass.restoreFromMemento</definition>
+        <argsstring>(locationCoordinatesMemento memento)</argsstring>
+        <name>restoreFromMemento</name>
+        <qualifiedname>assignment2_group13.coordinatesOriginatorClass.restoreFromMemento</qualifiedname>
+        <param>
+          <type><ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref></type>
+          <declname>memento</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Restores the coordinates state from a memento object.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>memento</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <computeroutput>locationCoordinatesMemento</computeroutput> object from which to restore the state. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The restored coordinates as a 2D array of doubles. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinatesOriginatorClass.java" line="42" column="15" bodyfile="coordinatesOriginatorClass.java" bodystart="42" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput>coordinatesOriginatorClass</computeroutput> is responsible for creating and restoring states of its coordinates. It acts as the originator in the Memento design pattern, which allows for the state of an object to be saved and restored without breaking encapsulation. </para>
+    </detaileddescription>
+    <location file="coordinatesOriginatorClass.java" line="9" column="7" bodyfile="coordinatesOriginatorClass.java" bodystart="9" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classassignment2__group13_1_1coordinates_originator_class_1afde3f96b611bbc87203a3bea9216d7a4" prot="private" virt="non-virtual"><scope>assignment2_group13::coordinatesOriginatorClass</scope><name>coordinates</name></member>
+      <member refid="classassignment2__group13_1_1coordinates_originator_class_1a8ec8fe744773570604263cf552043234" prot="public" virt="non-virtual"><scope>assignment2_group13::coordinatesOriginatorClass</scope><name>restoreFromMemento</name></member>
+      <member refid="classassignment2__group13_1_1coordinates_originator_class_1aecaa917b6aedfbd8dd21699b35d842dd" prot="public" virt="non-virtual"><scope>assignment2_group13::coordinatesOriginatorClass</scope><name>setCoordinate</name></member>
+      <member refid="classassignment2__group13_1_1coordinates_originator_class_1a7adcda18cd9c53b2eb52473814477c30" prot="public" virt="non-virtual"><scope>assignment2_group13::coordinatesOriginatorClass</scope><name>storeInMemento</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

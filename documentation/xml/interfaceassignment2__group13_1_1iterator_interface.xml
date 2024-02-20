@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interfaceassignment2__group13_1_1iterator_interface" kind="interface" language="Java" prot="public">
+    <compoundname>assignment2_group13::iteratorInterface</compoundname>
+    <derivedcompoundref refid="classassignment2__group13_1_1coordinates_iterator" prot="public" virt="non-virtual">assignment2_group13.coordinatesIterator</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfaceassignment2__group13_1_1iterator_interface_1ab0ad2c39d20a261b82d925a670d9d777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Iterator</type>
+        <definition>Iterator assignment2_group13.iteratorInterface.createIterator</definition>
+        <argsstring>()</argsstring>
+        <name>createIterator</name>
+        <qualifiedname>assignment2_group13.iteratorInterface.createIterator</qualifiedname>
+        <reimplementedby refid="classassignment2__group13_1_1coordinates_iterator_1af7309471c514fa1321fa038e7c15467c">createIterator</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="iteratorInterface.java" line="19" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="interfaceassignment2__group13_1_1iterator_interface_1a74e44da58e894771e42d0576c7b1db5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean assignment2_group13.iteratorInterface.hasNext</definition>
+        <argsstring>()</argsstring>
+        <name>hasNext</name>
+        <qualifiedname>assignment2_group13.iteratorInterface.hasNext</qualifiedname>
+        <reimplementedby refid="classassignment2__group13_1_1coordinates_iterator_1ab90121b5f63b0fc975357209b9986655">hasNext</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="iteratorInterface.java" line="22" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="interfaceassignment2__group13_1_1iterator_interface_1a7d7bcec00f4fc6a38adfdf796952ceeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double[][]</type>
+        <definition>double[][] assignment2_group13.iteratorInterface.next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <qualifiedname>assignment2_group13.iteratorInterface.next</qualifiedname>
+        <reimplementedby refid="classassignment2__group13_1_1coordinates_iterator_1aed9f3be1f66f88e398de74147e5c09c9">next</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="iteratorInterface.java" line="23" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>assignment2_group13.iteratorInterface</label>
+        <link refid="interfaceassignment2__group13_1_1iterator_interface"/>
+      </node>
+      <node id="2">
+        <label>assignment2_group13.coordinatesIterator</label>
+        <link refid="classassignment2__group13_1_1coordinates_iterator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="iteratorInterface.java" line="13" column="18" bodyfile="iteratorInterface.java" bodystart="13" bodyend="25"/>
+    <listofallmembers>
+      <member refid="interfaceassignment2__group13_1_1iterator_interface_1ab0ad2c39d20a261b82d925a670d9d777" prot="public" virt="non-virtual"><scope>assignment2_group13::iteratorInterface</scope><name>createIterator</name></member>
+      <member refid="interfaceassignment2__group13_1_1iterator_interface_1a74e44da58e894771e42d0576c7b1db5a" prot="public" virt="non-virtual"><scope>assignment2_group13::iteratorInterface</scope><name>hasNext</name></member>
+      <member refid="interfaceassignment2__group13_1_1iterator_interface_1a7d7bcec00f4fc6a38adfdf796952ceeb" prot="public" virt="non-virtual"><scope>assignment2_group13::iteratorInterface</scope><name>next</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

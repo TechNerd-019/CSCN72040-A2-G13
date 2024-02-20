@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="caretaker_for_memento_8java" kind="file" language="Java">
+    <compoundname>caretakerForMemento.java</compoundname>
+    <innerclass refid="classassignment2__group13_1_1caretaker_for_memento" prot="public">assignment2_group13::caretakerForMemento</innerclass>
+    <innernamespace refid="namespaceassignment2__group13">assignment2_group13</innernamespace>
+    <innernamespace refid="namespacejava_1_1lang">java::lang</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">assignment2_group13;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.ArrayList;</highlight></codeline>
+<codeline lineno="10" refid="classassignment2__group13_1_1caretaker_for_memento" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classassignment2__group13_1_1caretaker_for_memento" kindref="compound">caretakerForMemento</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>ArrayList&lt;locationCoordinatesMemento&gt;<sp/>savedCoordinates<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList&lt;locationCoordinatesMemento&gt;();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classassignment2__group13_1_1caretaker_for_memento_1a6c9293bb69f505cdc1f1959b5afeab76" kindref="member">addNewCoordinatesMemento</ref>(<ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref><sp/>m)<sp/>{<sp/>savedCoordinates.add(m);<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classassignment2__group13_1_1location_coordinates_memento" kindref="compound">locationCoordinatesMemento</ref><sp/><ref refid="classassignment2__group13_1_1caretaker_for_memento_1aa0f75c1d18bd54d77dfa2048fa30334c" kindref="member">getCoordinates</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>savedCoordinates.get(index);}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="caretakerForMemento.java"/>
+  </compounddef>
+</doxygen>
